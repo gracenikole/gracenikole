@@ -1,2 +1,2 @@
-# Basci Portfolio
+# Basic Portfolio
 ##### I <3 create new things...
