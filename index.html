@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<title>Grace Nikole</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+<body>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#aboutme" onclick="hideMe()" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
+    <a href="#photos" onclick="hideMe()" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photos</a>
+    <a href="#friends" onclick="hideMe()" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Friends</a>
+  </div>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1><b>Grace Nikole Alvarado Salazar</b></h1>
+  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Presiona</button></p>
+</header>
+</div>
+
+<div id="#aboutme">
+    <header class="w3-center w3-margin-bottom">
+        <h3><b>Acerca de mí</b></h3>
+    </header>
+    <div class="w3-container w3-margin-bottom w3-opacity">
+        <h6><b>Ya que mi nombre se encuentra en la parte superior comenzaré con... <br>
+            Mi nick es Misty Blunch, soy estudiante de Computer Science en la UTEC
+            me encanta programar, proponerme retos, cantar, a pesar de que no lo haga mucho;
+            actuar, sacarle fotos a todo lo que me rodea, escuchar música y ver documentales;
+            amo los misterios del internet y sobre todo me fascina aprender...
+            Me gustan muchas cosas y no, no se trata de una indecisión, pues siento que hay tantas
+            cosas que desconozco y solo me gustaría saber al menos algo de ellas y de esa manera 
+            poder compartirlas con las personas que también se sienten atraídas por lo mismo.
+        </b></h6>
+    </div>
+</div>
+
+<div id="#photos">
+    <header class="w3-center w3-margin-bottom">
+    <h3><b>Fotos</b></h3>
+    </header>
+
+    <div class="w3-container w3-margin-bottom w3-opacity">
+        <h6><b>La verdad es que a mí a parte de programar me encanta mucho sacar fotos a los lugares a donde voy, 
+            aquí les dejo algunas fotos que he sacado a lo largo de mi vida. Espero que les guste :3
+        </b></h6>
+    </div>
+    <!-- Photo Grid -->
+    <div class="w3-row" id="myGrid" style="margin-bottom:128px">
+    <div class="w3-third">
+        <img src="img/1.jpg" style="width:100%">
+        <img src="img/2.jpg" style="width:100%">
+        <img src="img/3.jpg" style="width:100%">
+        <img src="img/4.jpg" style="width:100%">
+        <img src="img/5.jpg" style="width:100%">
+        <img src="img/6.jpg" style="width:100%">
+        <img src="img/28.jpg" style="width:100%">
+        <img src="img/30.jpg" style="width:100%">
+    </div>
+
+    <div class="w3-third">
+        <img src="img/21.jpg" style="width:100%">
+        <img src="img/36.jpg" style="width:100%">
+        <img src="img/22.jpg" style="width:100%">
+        <img src="img/29.jpg" style="width:100%">
+        <img src="img/11.jpg" style="width:100%">
+        <img src="img/12.jpg" style="width:100%">
+    </div>
+
+    <div class="w3-third">
+        <img src="img/23.jpg" style="width:100%">
+        <img src="img/16.jpg" style="width:100%">
+        <img src="img/17.jpg" style="width:100%">
+        <img src="img/24.jpg" style="width:100%">
+        <img src="img/27.jpg" style="width:100%">
+        <img src="img/35.jpg" style="width:100%">
+        <img src="img/31.jpg" style="width:100%">
+        <img src="img/32.jpg" style="width:100%">
+    </div>
+    </div>
+
+    <!-- End Page Content -->
+    </div>
+</div>
+
+<div id="#friends">
+    <header class="w3-center w3-margin-bottom">
+        <h3><b>Friends</b></h3>
+    </header>
+    <div class="w3-container w3-margin-bottom w3-opacity">
+        <ul>
+            <li>Jeremy</li>
+            <li>Emelin</li>
+            <li><a target="_blank" href="http://mauriciobutron.000webhostapp.com/trabajo_de_icc_pagina_web.html">Mauricio Butron</a></li>
+            <li>Cesar</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+  <a target="_blank" href="https://www.facebook.com/gracenikhole"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a target="_blank" href="https://www.instagram.com/holeinthetree/?hl=es-la"><i class="fa fa-youtube w3-hover-opacity"></i></a>
+  <a target="_blank" href="https://www.youtube.com/channel/UCoKBkoGknv8JQOsjcRgs-tw?view_as=subscriber"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <a target="_blank" href="https://twitter.com/GraceNikole"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+  <a target="_blank" href="https://www.linkedin.com/notifications/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+</footer>
+ 
+<script>
+// Toggle grid padding
+function myFunction() {
+    var x = document.getElementById("myGrid");
+    if (x.className === "w3-row") {
+        x.className = "w3-row-padding";
+    } else { 
+        x.className = x.className.replace("w3-row-padding", "w3-row");
+    }
+}
+
+// Open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.width = "100%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+function hideMe() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
